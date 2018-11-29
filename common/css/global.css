@@ -1,0 +1,161 @@
+/***** HTML *****/
+html {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+body {
+    width: 90%;
+    margin: 0 auto;
+}
+
+h1 {
+    font-size: 1.6em;
+}
+
+h2 {
+    font-size: 1.4em;
+}
+
+h3 {
+    font-size: 1.2em;
+}
+
+h4 {
+    font-size: 1.0em;
+}
+
+h5 {
+    font-size: 0.8em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+a, a:link, a:hover, a:visited {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+
+/***** FONTS *****/
+
+
+
+/***** HEADER *****/
+header {
+    width: 100%;
+    color: #FFFFFF;
+    background: lightgrey url("../../images/15.png") no-repeat;
+    background-size: contain;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 2fr 3fr;
+    justify-items: center;
+}
+
+header h1 {
+    grid-row: 2 / 3;
+    grid-column: 1;
+    padding: 2% 0 1% 0;
+}
+
+header h2 {
+    grid-row: 3 / 4;
+    grid-column: 1;
+    padding: 1% 2% 2% 2%;
+}
+
+
+/***** NAV *****/
+nav {
+    height: 50%;
+    grid-row: 1 / 2;
+    grid-column: 1;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr) 1fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 8px;
+    justify-items: center;
+    /*align-items: flex-start;*/
+    padding-top: 2%;
+    border: 1px dashed red;
+}
+
+nav div#left-box {
+    color: #000000;
+    background: #F7CE3E;
+    grid-row: 1 / 3;
+    grid-column: 1 / 2;
+}
+
+nav div#left-box h3 {
+    padding: 2% 3% 2% 4%;
+}
+
+nav div.menu-box {
+    grid-row: 1 / 2;
+    color: inherit;
+    background-color: #1A2930;
+}
+
+nav div.menu-box a h4 {
+    padding: 0 2% 0 4%;
+}
+
+nav div#about {
+    border: 1px solid red;
+    
+}
+
+nav div#programs {
+
+}
+
+nav div#faculty {
+
+}
+
+nav div#students {
+
+}
+
+nav div#contact {
+
+}
+
+nav div#search {
+
+}
+
+nav div#search img {
+    width: 15%;
+    height: auto;
+}
+
+
+/***** MAIN *****/
+
+
+
+/***** FOOTER *****/
+footer {
+    width: 100%;
+    color: #FFFFFF;
+    background-color: #1A2930;
+    text-transform: capitalize;
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+    padding: 1% 0;
+}
+
+footer div.footer-grid {
+    padding: 1% 8%;
+    display: grid;
+    justify-content: center;
+}
+
+
+/***** MEDIA *****/
