@@ -204,7 +204,7 @@ main section#lower-bottom-right-img {
 
 
 /***** MEDIA *****/
-@media (max-width: 900px) {
+@media (max-width: 1050px) {
     main h4 {
         font-size: 0.7em;
     }
