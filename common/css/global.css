@@ -166,6 +166,13 @@ nav div#search img {
 }
 
 
+/***** MAIN *****/
+main {
+    width: 96%;
+    margin: 0 auto;
+}
+
+
 /***** FOOTER *****/
 footer {
     width: 100%;

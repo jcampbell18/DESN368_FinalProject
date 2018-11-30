@@ -12,12 +12,6 @@ header h2#header-subtitle {
 
 
 /***** MAIN *****/
-main {
-    width: 96%;
-    margin: 0 auto;
-}
-
-
 /***** MAIN > UPPER SECTION *****/
 main div.upper-section {
     width: 100%;
@@ -60,6 +54,7 @@ main div.student-desc {
 main div.upper-section h2 {
     text-transform: uppercase;
 }
+
 
 /***** MAIN > LOWER SECTION *****/
 main div#lower-section {
