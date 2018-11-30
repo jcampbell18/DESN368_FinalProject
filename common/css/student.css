@@ -19,7 +19,7 @@ main {
 
 
 /***** MAIN > UPPER SECTION *****/
-main section.upper-section {
+main div.upper-section {
     width: 100%;
     display: grid;
     grid-template-columns: 32% 32% 32%;
@@ -57,12 +57,12 @@ main div.student-desc {
     grid-column: 3;
 }
 
-main section.upper-section h2 {
+main div.upper-section h2 {
     text-transform: uppercase;
 }
 
 /***** MAIN > LOWER SECTION *****/
-main section#lower-section {
+main div#lower-section {
     width: 100%;
     height: 60vh;
     margin: 0 0 2% 0;
