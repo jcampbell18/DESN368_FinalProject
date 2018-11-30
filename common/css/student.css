@@ -208,5 +208,10 @@ main div.right-txt-box h4 {
     main section#bottom-left-img {
         display: none;
     }
+}
 
+@media (max-width: 480px) {
+    main h4 {
+        font-size: 0.7em;
+    }
 }
