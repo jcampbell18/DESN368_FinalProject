@@ -55,7 +55,7 @@ main section#upper-msg-box div.align-mid h2 {
 
 main section.image-box {
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
 
     display: grid;
     grid-template-rows: 15% 85%;
@@ -94,7 +94,7 @@ main section#bottom-right-img {
 
 main div.right-txt-box {
     width: 100%;
-    height: 100%;
+    /*height: 100%;*/
     color: #FFFFFF;
     background-color: #1A2930;
     grid-row: 1;
