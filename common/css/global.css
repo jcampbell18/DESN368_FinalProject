@@ -193,3 +193,59 @@ footer div.footer-grid {
 
 
 /***** MEDIA *****/
+@media (max-width: 1050px) {
+    header h1 {
+        font-size: 2.0em;
+    }
+
+    header h2 {
+        font-size: 1.0em;
+    }
+
+    nav h3 {
+        font-size: 0.8em;
+    }
+
+    nav h4 {
+        font-size: 0.7em;
+    }
+
+    footer h2 {
+        font-size: 1.0em;
+    }
+
+    footer h3 {
+        font-size: 0.8em;
+    }
+}
+
+@media (max-width: 700px) {
+    nav h3 {
+        font-size: 0.6em;
+    }
+}
+
+@media (max-width: 480px) {
+    header h1 {
+        font-size: 1.0em;
+    }
+    header h2 {
+        font-size: 0.8em;
+    }
+
+    nav h3 {
+        font-size: 0.4em;
+    }
+
+    nav h4 {
+        font-size: 0.4em;
+    }
+
+    footer h2 {
+        font-size: 0.8em;
+    }
+
+    footer h3 {
+        font-size: 0.6em;
+    }
+}
