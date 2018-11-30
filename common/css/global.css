@@ -8,11 +8,11 @@ html {
 body {
     width: 90%;
     margin: 0 auto;
-    font-family: Avenir;
+    font-family: Avenir, Tahoma, sans-serif;
 }
 
 h1 {
-    font-size: 2.2em;
+    font-size: 2.4em;
 }
 
 h2 {
@@ -30,6 +30,13 @@ h4 {
 
 h5 {
     font-size: 0.8em;
+}
+
+hr {
+    width: 80%;
+    height: 1vh;
+    display: block;
+    background-color: #F7CE3E;
 }
 
 p {
@@ -61,10 +68,6 @@ a, a:link, a:hover, a:visited {
 /***** HEADER *****/
 header {
     width: 100%;
-    color: #FFFFFF;
-    background: #666666 url("../../images/15.png") no-repeat;
-    background-blend-mode: multiply;
-    background-size: cover;
 
     display: grid;
     grid-template-columns: 4% 92% 4%;
@@ -83,7 +86,6 @@ header h2 {
     grid-row: 4;
     grid-column: 2;
     max-width: 61ch;
-    color: #CCCCCC;
     text-align: center;
     font-size: 1.4em;
     text-transform: capitalize;
@@ -160,7 +162,7 @@ nav div#search {
 }
 
 nav div#search img {
-    width: 60%;
+    width: 50%;
     height: auto;
     padding-left: 8%;
 }
