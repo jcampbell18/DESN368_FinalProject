@@ -158,6 +158,11 @@ main div.left-txt-box {
     text-transform: uppercase;
 }
 
+main div.left-txt-box.yellow-box {
+    color: #000000;
+    background-color: #F7CE3E;
+}
+
 main section#lower-msg-box div.align-mid {
     width: 80%;
     margin: 0 auto;
